@@ -1,7 +1,7 @@
 import Foundation
 import RxSwift
 
-extension ObservableType {
+public extension ObservableType {
     func compose<T: ObservableTransformer, R>(_ transformer: T)  -> Observable<R> where T.Input == Self.E, R == T.Output  {
         return transformer.apply(self.asObservable())
     }
