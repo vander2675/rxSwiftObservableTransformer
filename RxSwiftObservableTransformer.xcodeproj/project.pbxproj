@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E705BA4B20C67BC500E09B1E /* ObservableTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705BA4A20C67BC500E09B1E /* ObservableTransformer.swift */; };
+		E705BA4E20C67EB100E09B1E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E705BA4D20C67EB100E09B1E /* RxSwift.framework */; };
+		E705BA5120C67F1400E09B1E /* ObservableType+ObservableTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705BA5020C67F1400E09B1E /* ObservableType+ObservableTransformer.swift */; };
+		E74FDC3120C67B82004B0B25 /* RxSwiftObservableTransformer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FDC2720C67B82004B0B25 /* RxSwiftObservableTransformer.framework */; };
+		E74FDC3620C67B82004B0B25 /* RxSwiftObservableTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74FDC3520C67B82004B0B25 /* RxSwiftObservableTransformerTests.swift */; };
+		E74FDC3820C67B82004B0B25 /* RxSwiftObservableTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E74FDC2A20C67B82004B0B25 /* RxSwiftObservableTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74FDC3220C67B82004B0B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74FDC1E20C67B82004B0B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74FDC2620C67B82004B0B25;
+			remoteInfo = RxSwiftObservableTransformer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E705BA4A20C67BC500E09B1E /* ObservableTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTransformer.swift; sourceTree = "<group>"; };
+		E705BA4D20C67EB100E09B1E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E705BA5020C67F1400E09B1E /* ObservableType+ObservableTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObservableTransformer.swift"; sourceTree = "<group>"; };
+		E74FDC2720C67B82004B0B25 /* RxSwiftObservableTransformer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftObservableTransformer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74FDC2A20C67B82004B0B25 /* RxSwiftObservableTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftObservableTransformer.h; sourceTree = "<group>"; };
+		E74FDC2B20C67B82004B0B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74FDC3020C67B82004B0B25 /* RxSwiftObservableTransformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftObservableTransformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74FDC3520C67B82004B0B25 /* RxSwiftObservableTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftObservableTransformerTests.swift; sourceTree = "<group>"; };
+		E74FDC3720C67B82004B0B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74FDC2320C67B82004B0B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E705BA4E20C67EB100E09B1E /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FDC2D20C67B82004B0B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74FDC3120C67B82004B0B25 /* RxSwiftObservableTransformer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E705BA4C20C67EB100E09B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E705BA4D20C67EB100E09B1E /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74FDC1D20C67B82004B0B25 = {
+			isa = PBXGroup;
+			children = (
+				E74FDC2920C67B82004B0B25 /* RxSwiftObservableTransformer */,
+				E74FDC3420C67B82004B0B25 /* RxSwiftObservableTransformerTests */,
+				E74FDC2820C67B82004B0B25 /* Products */,
+				E705BA4C20C67EB100E09B1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E74FDC2820C67B82004B0B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74FDC2720C67B82004B0B25 /* RxSwiftObservableTransformer.framework */,
+				E74FDC3020C67B82004B0B25 /* RxSwiftObservableTransformerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74FDC2920C67B82004B0B25 /* RxSwiftObservableTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				E74FDC2A20C67B82004B0B25 /* RxSwiftObservableTransformer.h */,
+				E74FDC2B20C67B82004B0B25 /* Info.plist */,
+				E705BA4A20C67BC500E09B1E /* ObservableTransformer.swift */,
+				E705BA5020C67F1400E09B1E /* ObservableType+ObservableTransformer.swift */,
+			);
+			path = RxSwiftObservableTransformer;
+			sourceTree = "<group>";
+		};
+		E74FDC3420C67B82004B0B25 /* RxSwiftObservableTransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74FDC3520C67B82004B0B25 /* RxSwiftObservableTransformerTests.swift */,
+				E74FDC3720C67B82004B0B25 /* Info.plist */,
+			);
+			path = RxSwiftObservableTransformerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E74FDC2420C67B82004B0B25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74FDC3820C67B82004B0B25 /* RxSwiftObservableTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E74FDC2620C67B82004B0B25 /* RxSwiftObservableTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74FDC3B20C67B82004B0B25 /* Build configuration list for PBXNativeTarget "RxSwiftObservableTransformer" */;
+			buildPhases = (
+				E74FDC2220C67B82004B0B25 /* Sources */,
+				E74FDC2320C67B82004B0B25 /* Frameworks */,
+				E74FDC2420C67B82004B0B25 /* Headers */,
+				E74FDC2520C67B82004B0B25 /* Resources */,
+				E705BA4F20C67EB700E09B1E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftObservableTransformer;
+			productName = RxSwiftObservableTransformer;
+			productReference = E74FDC2720C67B82004B0B25 /* RxSwiftObservableTransformer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E74FDC2F20C67B82004B0B25 /* RxSwiftObservableTransformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74FDC3E20C67B82004B0B25 /* Build configuration list for PBXNativeTarget "RxSwiftObservableTransformerTests" */;
+			buildPhases = (
+				E74FDC2C20C67B82004B0B25 /* Sources */,
+				E74FDC2D20C67B82004B0B25 /* Frameworks */,
+				E74FDC2E20C67B82004B0B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74FDC3320C67B82004B0B25 /* PBXTargetDependency */,
+			);
+			name = RxSwiftObservableTransformerTests;
+			productName = RxSwiftObservableTransformerTests;
+			productReference = E74FDC3020C67B82004B0B25 /* RxSwiftObservableTransformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74FDC1E20C67B82004B0B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = imiji;
+				TargetAttributes = {
+					E74FDC2620C67B82004B0B25 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					E74FDC2F20C67B82004B0B25 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E74FDC2120C67B82004B0B25 /* Build configuration list for PBXProject "RxSwiftObservableTransformer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E74FDC1D20C67B82004B0B25;
+			productRefGroup = E74FDC2820C67B82004B0B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74FDC2620C67B82004B0B25 /* RxSwiftObservableTransformer */,
+				E74FDC2F20C67B82004B0B25 /* RxSwiftObservableTransformerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74FDC2520C67B82004B0B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FDC2E20C67B82004B0B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E705BA4F20C67EB700E09B1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74FDC2220C67B82004B0B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E705BA4B20C67BC500E09B1E /* ObservableTransformer.swift in Sources */,
+				E705BA5120C67F1400E09B1E /* ObservableType+ObservableTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FDC2C20C67B82004B0B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74FDC3620C67B82004B0B25 /* RxSwiftObservableTransformerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74FDC3320C67B82004B0B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74FDC2620C67B82004B0B25 /* RxSwiftObservableTransformer */;
+			targetProxy = E74FDC3220C67B82004B0B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E74FDC3920C67B82004B0B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E74FDC3A20C67B82004B0B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E74FDC3C20C67B82004B0B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7B56DSW8VA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxSwiftObservableTransformer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.vdl.RxSwiftObservableTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74FDC3D20C67B82004B0B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7B56DSW8VA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxSwiftObservableTransformer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.vdl.RxSwiftObservableTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74FDC3F20C67B82004B0B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B56DSW8VA;
+				INFOPLIST_FILE = RxSwiftObservableTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.vdl.RxSwiftObservableTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74FDC4020C67B82004B0B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B56DSW8VA;
+				INFOPLIST_FILE = RxSwiftObservableTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.vdl.RxSwiftObservableTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74FDC2120C67B82004B0B25 /* Build configuration list for PBXProject "RxSwiftObservableTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FDC3920C67B82004B0B25 /* Debug */,
+				E74FDC3A20C67B82004B0B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74FDC3B20C67B82004B0B25 /* Build configuration list for PBXNativeTarget "RxSwiftObservableTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FDC3C20C67B82004B0B25 /* Debug */,
+				E74FDC3D20C67B82004B0B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74FDC3E20C67B82004B0B25 /* Build configuration list for PBXNativeTarget "RxSwiftObservableTransformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FDC3F20C67B82004B0B25 /* Debug */,
+				E74FDC4020C67B82004B0B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74FDC1E20C67B82004B0B25 /* Project object */;
+}
